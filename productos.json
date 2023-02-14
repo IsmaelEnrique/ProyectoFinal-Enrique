@@ -1,0 +1,10 @@
+[
+    {"id":1,"categoria":"Pantalon", "nombre":"Palazzo", "precio": 10800, "img":"https://http2.mlstatic.com/D_NQ_NP_764114-MLA51812573096_102022-O.webp" },
+    {"id":2 ,"categoria":"Remera", "nombre": "DC New Black Style","precio": 9000,"img": "./img/RemeraDC.jpeg"},
+    {"id":3, "categoria":"Short", "nombre":"Maya", "precio":7000, "img": "https://http2.mlstatic.com/D_NQ_NP_710709-MLA52779644512_122022-O.webp"},
+    {"id":4,"categoria":"Boxer", "nombre":"Taverniti", "precio":4500, "img":"https://static.dafiti.com.ar/p/taverniti-0403-91183-1-product.jpg"},
+    {"id":5,"categoria":"Pantalon", "nombre":"Slim", "precio":13400, "img":"https://http2.mlstatic.com/D_NQ_NP_769434-MLA49028911637_022022-O.webp    "},
+    {"id":6,"categoria":"Medias", "nombre":"Floyd", "precio":3800, "img":"https://http2.mlstatic.com/D_NQ_NP_779670-MLA46257863194_062021-O.webp"},
+    {"id":7,"categoria":"Buzos", "nombre":"Dior", "precio":20000, "img":"https://http2.mlstatic.com/D_NQ_NP_951774-MLA32134905937_092019-O.webp"},
+    {"id":8,"categoria":"Bermudas", "nombre":"Brava", "precio":9750, "img":"https://http2.mlstatic.com/D_NQ_NP_806672-MLA52983845511_122022-O.webp"}
+]

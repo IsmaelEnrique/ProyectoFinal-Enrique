@@ -1,0 +1,180 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: cornsilk;
+}
+/*Header*/
+header{
+    margin: 0;
+    background-color: red;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header>h1{
+    text-align:center;
+    width: 500px;
+    margin: 0 auto;
+    font-family:'Dancing Script',Verdana, Geneva, Tahoma, sans-serif ;
+    float:center;
+    font-size: 4rem;
+    text-shadow: 3px 5px 5px black;
+}
+header>#Carrito{
+    margin: 30px 25px 0px 0px;
+}
+header>#Carrito>#BotonCarrito>#ImagenCarrito{
+    width: 35px;
+    background-color: white;
+    border-radius: 5px;
+}
+header>#Filtro{
+    margin: 30px 0px 0px 25px;
+}
+header>#Filtro>#Filtrar{
+    width: 75%;
+    height: 20px;
+    border:0;
+}
+#BotonLupa{
+    height: 20px;
+    width:20px;
+    margin-top: 0;
+}
+section{
+    height: 80vh;
+}
+.imagen2{
+    width: 40px;
+    margin:0px 40px;
+    float:right;
+}
+#ig{
+    border: 1px;
+    border-radius: 6px;
+}
+/*Section*/
+/* button:hover{
+
+} */
+#seccion{
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 0;
+    height: 160vh;
+}
+#contenedorProductos{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    text-align: center;
+}
+.ocultar{
+    display: none !important;
+}
+.producto{
+    transition: all 0.3s ease;
+    margin: 2px;
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+.producto:hover{
+    box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,0.3);
+}
+.producto>h3{
+    font-style: italic;
+    font-size: 30px;
+}
+.producto>p{
+    margin: 50px 0 0 0;
+    font-style: oblique;
+    font-size: 25px;
+}
+.producto>button{
+    margin:50px 0 0 0;
+    cursor: pointer;
+}
+.producto img{
+    margin-left: 10%;
+    width: 50%;
+    height: 250px;
+}
+/*Carrito*/
+#contenedorDeCarro{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 100px;
+}
+.itemCarro  {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    
+}
+.itemCarro>h3{
+    font-style: italic;
+    font-size: 30px;
+}
+.itemCarro>p{
+    font-style: oblique;
+    font-size: 25px;
+}
+.itemCarro>button{
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+#BotonesUltimos{
+    margin:0px 0px 0px 30px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 60px;
+    height: 40px;
+}
+#BotonesUltimos>button{
+    cursor: pointer;
+}
+/*Footer*/
+footer{
+    width: 100vw;
+    height: 5rem;
+    background-color: black ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+   margin: inherit;
+   padding: 0;
+}
+#derecha{
+    float: left;
+    margin:0;
+    padding: 0;
+}
+#izquierda{
+    margin: 30px 0px 0px 0px;
+    float: right;
+    text-align: center;
+    padding: 0;
+}
+#derecha>p{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+

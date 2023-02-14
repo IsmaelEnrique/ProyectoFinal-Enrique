@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Pre Entrega 1 Ismael Enrique</title>
+    <title>Proyecto Final Ismael Enrique</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="./PreEntrega1Enrique.js"></script>
-
-    <!-- Crear un menu de una tienda con las diferentes opciones para realizar una compra 
-    e ir indicando el sub total de la compra, luego crear un condicional sobre si desea o no realizar la compra, en caso de aceptar
-    indicar metodo de pago, si es en efectivo aplicar un 10% de descuento, en caso de ser debito que sea monto normal, y si es con tarjeta 
-    de credito aplicar un 10% de recargo -->
+    <header>
+        <div id="Filtro">
+            <input id="Filtrar" placeholder="Categoria, nombre..">
+            <button id="buscar" type="button"><img id="BotonLupa" src="img/Lupa.png"/></button>
+        </div>
+        <h1 id="NombrePagina">Los Negritos</h1>
+        <div id="Carrito">
+            <button id="BotonCarrito">
+                <img id="ImagenCarrito" src="img/CarritoCompra.png"/>
+            </button>
+        </div>
+    </header>
+    <section id="seccion">
+        <div id="contenedorProductos"></div>
+        <div id="contenedorDeCarro" class="ocultar"></div>
+    </section>
+    <footer>
+        <div id="derecha">
+            <p >Copyright © 2000-2023 <strong>LosNegritos S.A</strong></p>
+            <p >Av. Siempreviva 247 Santa Fe-Argentina</p>
+        </div>
+        <div id="izquierda">
+            <a target="_blank" href="https://www.instagram.com/enriqueisma/"><img id="ig" class="imagen2" src="img/LogoIG.png"/></a>
+            <a target="_blank" href="https://twitter.com/ismafubol"><img class="imagen2" src="img/gorjeo.png"/></a>
+            <a target="_blank" href="mailto::ismaeljulianenrique@gmail.com"><img class="imagen2" src="img/LogoCorreo.jpg"/></a>
+        </div>
+    </footer>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./ProyectoFinalEnrique.js"></script>
 </body>
 </html>
